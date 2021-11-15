@@ -1,0 +1,40 @@
+#CSS Example
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: Calibri;
+  font-size: 20px;
+}
+#LESS Example
+@background-color: #ffffff;
+@text-color: #1A237E;
+
+p{
+  background-color: @background-color;
+  color: @text-color;
+  padding: 15px;
+}
+
+ul{
+  background-color: @background-color;
+}
+
+li{
+  color: @text-color;
+}
+#SASS Example
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
